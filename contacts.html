@@ -46,14 +46,21 @@
       </div>
     </header>
 
+    <img
+      style="position: absolute"
+      class="left_up_img"
+      src="/img/left_up.png"
+      alt=""
+    />
+
     <!-- Начало верстки середины сайта -->
     <section class="section">
-      <p class="basket ml-190">Вернуться в корзину</p>
       <div class="content">
-        <div class="price">
-          <p class="order ml-190">Оформление заказа</p>
-          <p class="order_1 ml-190">Заказ</p>
-          <div class="left_price">
+        <p class="basket ml-190">Вернуться в корзину</p>
+        <p class="order ml-190">Оформление заказа</p>
+        <p class="order_1 ml-190">Заказ</p>
+        <div class="price flex">
+          <div class="left_price ml-190">
             <div class="price_1 flex">
               <div class="window_1"></div>
               <div class="window_text ml-32">
@@ -104,13 +111,72 @@
               <div class="cost">2999тг</div>
             </div>
           </div>
+          <div class="contact">
+            <p class="data_contact order_1">Контактные данные</p>
+
+            <div class="input flex">
+              <div class="name">
+                <input type="text" placeholder="Имя и Фамилия" />
+              </div>
+              <div class="telephone">
+                <input
+                  class="input_telephone ml-32"
+                  type="tel"
+                  placeholder="Телефон"
+                />
+              </div>
+            </div>
+            <div class="check_mark flex">
+              <div class="e-mail">
+                <input
+                  class="input_email mt-34"
+                  type="email"
+                  placeholder="e-mail"
+                />
+              </div>
+              <div class="check_mark_1 flex">
+                <input type="checkbox" name="Следить за нами" id="check_box" />
+                <p class="text_check_box">Следить за нами</p>
+              </div>
+            </div>
+            <!-- ________________________________________________ -->
+            <div class="text_choise flex mt-121">
+              <div class="delivery">
+                <p>Доставка</p>
+              </div>
+              <div class="pickup ml-43">
+                <p>Самовывоз</p>
+              </div>
+            </div>
+            <div class="input flex">
+              <div class="region">
+                <input type="text" placeholder="Регион" />
+              </div>
+              <div class="city">
+                <input
+                  class="input_telephone ml-32"
+                  type="text"
+                  placeholder="Город"
+                />
+              </div>
+            </div>
+            <div class="street_h flex mt-34">
+              <div class="street">
+                <input class="input_street" type="text" placeholder="Улица" />
+              </div>
+              <div class="home_1 flex ml-32">
+                <input type="text" placeholder="Дом" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="contact"></div>
       </div>
     </section>
 
+    <footer class="footer"></footer>
+
     <!-- Картинки по периметру -->
-    <img class="left_up_img" src="/img/left_up.png" alt="" />
+
     <img class="left_down_img" src="/img/left_down.png" alt="" />
     <img src="" alt="" />
     <img src="" alt="" />
