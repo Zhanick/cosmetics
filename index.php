@@ -31,7 +31,7 @@
 
             <div class=vector>
                 <div  class="rec"><img src="./vector1.png" alt=""></div>
-                <div  class="rec"><img src="./vector3.png" alt=""></div>
+                <div  class="rec"><a href="contacts.html"></a> <img src="./vector3.png" alt=""></div>
                 <div  class="rec"><img src="./vector2.png" alt=""></div>  
             </div>
          
