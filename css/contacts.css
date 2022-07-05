@@ -1,0 +1,253 @@
+p {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #fefffa;
+}
+
+.left_up_img {
+  margin-top: -415px;
+}
+
+.left_down_img {
+  margin-left: -366px;
+  margin-bottom: -745px;
+}
+
+.header {
+  width: 100%;
+}
+
+.up {
+  width: 100%;
+  height: 106px;
+  background: #fefffa;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ml-190 {
+  margin-left: 190px;
+}
+
+.ml-32 {
+  margin-left: 32px;
+}
+
+.mt-27 {
+  margin-top: 27px;
+}
+
+.flex {
+  display: flex;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ai-c {
+  align-items: center;
+}
+/* ________________________________________________________________________ */
+
+.logo {
+  position: relative;
+}
+
+.logo_love_1 {
+  position: absolute;
+  margin: -58px -28px;
+}
+
+.logo_love_2 {
+  position: absolute;
+  margin-left: 360px;
+  margin-top: -48px;
+}
+
+.tel {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.logo_love_cos {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.lupa {
+  width: 40px;
+  height: 40px;
+  background: #fff8f0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.vector {
+  width: 40px;
+  height: 40px;
+  background: #fff8f0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 100%;
+  margin-left: 21px;
+  margin-right: 21px;
+  cursor: pointer;
+}
+
+.exit {
+  width: 40px;
+  height: 40px;
+  background: #fff8f0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.13);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* Нижнее меню */
+.menu {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  list-style: none;
+  color: #000000;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(168, 168, 168, 0.5);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+/* _________________________________________________________________________ */
+
+/* Середина */
+.basket {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  margin-top: 55px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.order {
+  width: 550px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 44px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 88px;
+}
+
+.order_1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 12px;
+  color: #000000;
+  margin-top: 32px;
+}
+
+.left_price {
+  box-sizing: border-box;
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  left: 190px;
+  top: 478px;
+
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 75px 0px;
+}
+
+.price_1 {
+  margin: 40px 40px;
+}
+
+.window_1 {
+  background: #ffffff;
+  min-width: 160px;
+  min-height: 160px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.window_table {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 44px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.window_text {
+  width: 237px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.window_2 {
+  min-width: 81px;
+  min-height: 160px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.window_2_1 {
+  min-width: 81px;
+  min-height: 160px;
+  left: 11.98%;
+  right: 79.69%;
+  top: 42.4%;
+  bottom: 48.1%;
+  background: #ffffff;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cost {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  margin-left: 65px;
+}
